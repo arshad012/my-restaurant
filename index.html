@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div id="navbar-main">
+            <div id="bars-and-input">
+                <div id="sidebar-open-btn">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div id="nav-input-div">
+                    <div id="search-icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <input type="text" placeholder="Search Food Item">
+                </div>
+            </div>
+            <div id="navbar-buttons">
+                <button>Signup</button>
+                <button>Login</button>
+            </div>
+        </div>
+    </nav>
+
+    <div id="sidebar">
+        <div id="sidebar-close-btn">
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+        <div id="sidebar-poster-imageDiv">
+            <img src="https://s3-alpha-sig.figma.com/img/6c30/5666/5f8945b573189c004e90e2728a92eb63?Expires=1736121600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=mR~BZogC-BEmdI9A6J6uvRjoUkPQuc7fBUaXljkM-xJTZ2ew9f-xrWaqgHnMiX5bxtDxBgjUwdZqQFPASWCVZ-ubj6H0XXwQHhBZeW2d9poDanp5u5Upbnt-G11GXsbbcXmlMAWC71YJ4PK3DbJ94syiqz~3tQqVxtnWYIAn~BVIeToSujIPwJlPaIiwh0S9knyq0NEYOmhSeXpweAsoF1iUTWpDmexSET9fOkrQ602~EM5gHCcpM8PzHxvickrXtdRyG-uExKV3kGJ-Y24l1sFipUxHiz3ilbciRfyWUJBXXzT0TJ3VuFnNPXGTxj0Zn4i~JTZUiCc~efSd0P6rPQ__" alt="sidebar poster" width="100%">
+        </div>
+        <p id="sidebar-heading">Your Restaurant Menu</p>
+        <div style="text-align: center; color: #FF2424;">Your Slogan</div>
+        <hr>
+        <div id="quick-links">
+            <div>Quick Links</div>
+            <ol>
+                <li>Home</li>
+                <li>Your Orders</li>
+                <li>Wallet</li>
+                <li>Profile</li>
+                <li>Logout</li>
+            </ol>
+        </div>
+        <hr>
+        <div id="more-aboutUs">
+            <div>More About Us</div>
+            <ol>
+                <li>Our blog</li>
+                <li>Upcoming Dishes</li>
+                <li>Our Story</li>
+                <li>Social Media links</li>
+            </ol>
+        </div>
+    </div>
+
+    <div id="container">
+        <div id="poster">
+            <img src="https://s3-alpha-sig.figma.com/img/bfaa/d74b/76ba1256d10f8af33fd5e08b7574087c?Expires=1736121600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=MyFQ~9TnXeAxSdr451LURD2KVIfr-kR9wtn401ZZi2LHpl3s0wSEhKvV8xRHMkdXMX6Os3q7H6TQj7i6jddTRUmt7A7Sj4FD9974xSmh69KYGjVVKbjiaxQkGmeuQlT3oNLQ1Si~M2xcoKyG4In50DOtYS2YEQLKiWrM~xUEumGBF9f2BkgkXav67MlRUTnS7p3iIq~74LqVsALle8-~~Tzh-rwOSOJp5gC8uguNqYVIgJbc~WLf1LGAvS78kNCCP4kUrHY37NLS9B-kgfG9V10P7PreDp0Df-kSqbNAzT3jNWrbzX78p~doX041BN34AxlAQWJk38EsHJXkl2wfkg__" alt="Poster" width="100%">
+        </div>
+        <p class="menu-heading">Menu</p>
+        <div id="menu">
+            <!-- Data will come from API -->
+        </div>
+    </div>
+</body>
+</html>
+
+<script src="script.js"></script>
